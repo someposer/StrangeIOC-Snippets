@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+injectionBinder.Bind<${1:Interface}>().To<${2:Class}>()${3:.ToSingleton()};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>injectionBinder</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.cs,scope.unitycs</scope>
+</snippet>

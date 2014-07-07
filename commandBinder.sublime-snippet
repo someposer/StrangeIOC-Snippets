@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+commandBinder.Bind<${1:Event}>().To<${2:Command}>();
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>commandBinder</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.cs,scope.unitycs</scope>
+</snippet>
